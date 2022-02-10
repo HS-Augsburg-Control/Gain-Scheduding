@@ -5,8 +5,14 @@ Requirements: Matlab 2020b or newer
 
 In order to perform simulations, please run the script Run_AcademicExample.m which will call the simulink models
 
-gainSchedExample_nonlinPlant_linearCntr.slx   - Simulate linear controllers on nonlinear plant
+gainSchedExample_nonlinPlant_linearCntr.slx   - Linear controller applied to nonlinear plant
 gainSchedExample_nonlinPlant_nonlinCntr.slx   - Gain-Scheduling Controllers with and without MRAW anti-windup
+
+and plot the results. The colors refer to
+
+- blue: Gain-Scheduling Controller without MRAW
+- red: Gain-Scheduling Controller with MRAW
+- green: Linear controllers applied to nonlinear plant
 
 Per default, the standard parameter set is used but you can easily switch to the alternate parameters commenting
 
